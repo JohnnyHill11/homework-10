@@ -7,11 +7,11 @@ btnAdd.addEventListener('click', onBtnAddRow);
 addEventListener('click', onBtnDeleteRow);
 
 function onBtnAddRow() {
-  addNewRow();
+  addValidNewRow();
   clearInputs();
 }
 
-function addNewRow() {
+function addValidNewRow() {
   if((!firstName.value || !isNaN(firstName.value )) || 
   (!lastName.value || !isNaN(lastName.value )) || 
   (!phoneNumber.value || isNaN(phoneNumber.value))) {
