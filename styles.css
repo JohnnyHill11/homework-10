@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+table {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: #ece7e7;
+  border-collapse: collapse;
+  border: 1px solid #333;
+  text-align: center;
+}
+td {
+  padding: 5px 39px;
+  border: 1px solid #050505;
+  color: #000;
+}
+.form {
+  text-align: center;
+}
+.first-name {
+  width: 106px;
+}
+.last-name {
+  width: 140px;
+}
+.phone-number {
+  width: 190px;
+}
+.btn-add {
+  width: 142px;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  padding: 6px 0;
+  color: #fff;
+  background: #ed4c5c;
+  text-transform: uppercase;
+}
+.input {
+  border-radius: 3px;
+  text-indent: 10px;
+  outline: none;
+  border: 1px solid #333;
+  font-size: 14px;
+  padding: 5px 0;
+  color: #000;
+}
+.input:focus {
+  border: 2px solid #ed4c5c;
+}
+button {
+  cursor: pointer;
+  background: #ed4c5c;
+  outline: none;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #0f0f0f;
+  padding: 4px 12px;
+  border-radius: 2px;
+}
